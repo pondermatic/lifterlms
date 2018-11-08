@@ -374,6 +374,7 @@ final class LifterLMS {
 		}
 
 		require_once 'includes/class-llms-grades.php';
+		require_once 'includes/class-llms-recaptcha.php';
 		require_once 'includes/class.llms.playnice.php';
 
 	}

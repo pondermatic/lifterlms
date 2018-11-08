@@ -1059,6 +1059,19 @@ class LLMS_AJAX_Handler {
 
 	}
 
+	/**
+	 * Verify reCAPTCHA
+	 * @param    array     $request  request data
+	 * @return   void
+	 * @since    [version]
+	 * @version  [version]
+	 */
+	public static function llms_recaptcha( $request ) {
+
+		return LLMS_ReCAPTCHA::verify( $requst );
+
+	}
+
 }
 
 new LLMS_AJAX_Handler();
