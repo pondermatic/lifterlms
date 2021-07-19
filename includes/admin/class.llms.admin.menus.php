@@ -163,7 +163,7 @@ class LLMS_Admin_Menus {
 		$menu[51] = array( '', 'read', 'llms-separator', '', 'wp-menu-separator' );
 
 		$icon_url = 'data:image/svg+xml;base64,' . base64_encode( file_get_contents(
-				plugin_dir_path( LLMS_PLUGIN_FILE ) . 'assets/images/lifterlms-icon.svg'
+				plugin_dir_path( LLMS_PLUGIN_FILE ) . 'assets/images/lifterlms-icon-grey.svg'
 			) );
 		add_menu_page( 'lifterlms', 'LifterLMS', 'read', 'lifterlms', '__return_empty_string', $icon_url, 51 );
 
